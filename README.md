@@ -64,16 +64,16 @@ You can manually add the repository.
 
     ```text
     $ sudo apt update
-    Get:1 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
-    Hit:2 http://archive.ubuntu.com/ubuntu focal InRelease
-    Get:3 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu focal InRelease [18.1 kB]
-    Get:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
-    Get:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
-    Err:3 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu focal InRelease
+    Get:1 http://security.ubuntu.com/ubuntu hirsute-security InRelease [114 kB]
+    Hit:2 http://archive.ubuntu.com/ubuntu hirsute InRelease
+    Get:3 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu hirsute InRelease [18.1 kB]
+    Get:4 http://archive.ubuntu.com/ubuntu hirsute-updates InRelease [114 kB]
+    Get:5 http://archive.ubuntu.com/ubuntu hirsute-backports InRelease [101 kB]
+    Err:3 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu hirsute InRelease
     The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 55F96FCF8231B6DD
     Reading package lists... Done
-    W: GPG error: http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu focal InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 55F96FCF8231B6DD
-    E: The repository 'http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu focal InRelease' is not signed.
+    W: GPG error: http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu hirsute InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY 55F96FCF8231B6DD
+    E: The repository 'http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu hirsute InRelease' is not signed.
     N: Updating from such a repository can't be done securely, and is therefore disabled by default.
     N: See apt-secure(8) manpage for repository creation and user configuration details.
     ```
@@ -91,14 +91,14 @@ You can manually add the repository.
 
     ```text
     $ sudo apt update
-    Get:1 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu focal InRelease [18.1 kB]
-    Get:2 http://security.ubuntu.com/ubuntu focal-security InRelease [114 kB]
-    Hit:3 http://archive.ubuntu.com/ubuntu focal InRelease
-    Get:4 http://archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
-    Get:5 http://archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
-    Get:6 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu focal/main Sources [796 B]
-    Get:7 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu focal/main amd64 Packages [588 B]
-    Get:8 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu focal/main Translation-en [200 B]
+    Get:1 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu hirsute InRelease [18.1 kB]
+    Get:2 http://security.ubuntu.com/ubuntu hirsute-security InRelease [114 kB]
+    Hit:3 http://archive.ubuntu.com/ubuntu hirsute InRelease
+    Get:4 http://archive.ubuntu.com/ubuntu hirsute-updates InRelease [114 kB]
+    Get:5 http://archive.ubuntu.com/ubuntu hirsute-backports InRelease [101 kB]
+    Get:6 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu hirsute/main Sources [796 B]
+    Get:7 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu hirsute/main amd64 Packages [588 B]
+    Get:8 http://ppa.launchpad.net/neovim-ppa/unstable/ubuntu hirsute/main Translation-en [200 B]
     Fetched 348 kB in 45s (7660 B/s)
     Reading package lists... Done
     Building dependency tree
