@@ -1,5 +1,6 @@
 {
   // explorer
+  "explorer.quitOnOpen": true,
   "explorer.width": 30,
   "explorer.icon.enableVimDevicons": true,
   "explorer.icon.enableNerdfont": true,
