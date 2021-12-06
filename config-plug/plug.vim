@@ -5,6 +5,7 @@ call plug#begin('~/.config/nvim/plugged')
 Plug 'christoomey/vim-sort-motion'
 Plug 'gennaro-tedesco/nvim-commaround'
 Plug 'jiangmiao/auto-pairs'
+Plug 'joshdick/onedark.vim'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'junegunn/rainbow_parentheses.vim'
