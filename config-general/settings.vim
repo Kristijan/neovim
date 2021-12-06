@@ -12,6 +12,9 @@ set scrolloff=3                     " minimal number of lines to keep above and 
 set isfname+={,}                    " resolve variables like ${HOME}
 set timeoutlen=500                  " set key timeout length
 filetype indent plugin on           " enable filetype plugins
+set list                            " list characters
+set listchars=trail:·,tab:»·,nbsp:+ " list character values
+set mouse=                          " disable mouse (so tmux copy/paste works)
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Backups
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
