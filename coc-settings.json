@@ -12,14 +12,6 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
    }
-
-  //// bash language server
-  //"languageserver": {
-  //  "bash": {
-  //    "command": "bash-language-server",
-  //    "args": ["start"],
-  //    "filetypes": ["sh"],
-  //    "ignoredRootPaths": ["~"]
-  //  }
-  //}
+   // auto-complete with tab (space or <cr> to accept)
+   "suggest.noselect": false
 }

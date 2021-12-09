@@ -10,4 +10,5 @@ source ${HOME}/.config/nvim/config-plug/commaround.vim
 source ${HOME}/.config/nvim/config-plug/onedark.vim
 source ${HOME}/.config/nvim/config-plug/rainbow_parentheses.vim
 source ${HOME}/.config/nvim/config-plug/sort-motion.vim
+source ${HOME}/.config/nvim/config-plug/vim-move.vim
 source ${HOME}/.config/nvim/config-plug/which-key.vim

@@ -15,3 +15,6 @@ if (empty($TMUX))
 endif
 
 colorscheme onedark
+
+"Set visual line/block to purple
+highlight Visual guifg=#000000 guibg=#c678dd gui=none
