@@ -2,16 +2,14 @@
   // explorer
   "explorer.quitOnOpen": true,
   "explorer.width": 30,
-  "explorer.icon.enableNerdFont": true,
-  "explorer.icon.source": "vim-devicons",
-  // "explorer.icon.enableVimDevicons": true,
+  "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.file.showHiddenFiles": true,
   "explorer.openAction.strategy": "tab",
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-   }
+   },
    // auto-complete with tab (space or <cr> to accept)
    "suggest.noselect": false
 }
