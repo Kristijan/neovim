@@ -1,11 +1,8 @@
-# Ignore all files
-*
-# Except for these
-!.gitignore
-!README.md
-!init.vim
-!coc-settings.json
-!config-general/
-!config-general/*
-!config-plug/
-!config-plug/*
+tt.*
+.tests
+doc/tags
+debug
+.repro
+foo.*
+*.log
+data
