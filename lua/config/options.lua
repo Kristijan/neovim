@@ -3,4 +3,3 @@
 -- Add any additional options here
 
 vim.opt.formatoptions = "jnqlr" -- Disable comment continuation of new lines
-vim.opt.mouse = "" -- Disable mouse
