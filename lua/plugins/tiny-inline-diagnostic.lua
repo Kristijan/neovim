@@ -11,7 +11,6 @@ return {
           },
           show_source = {
             enabled = true,
-            if_many = true,
           },
           multilines = {
             enabled = true,
