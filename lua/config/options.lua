@@ -11,3 +11,14 @@ vim.api.nvim_create_autocmd("FileType", {
 
 -- Disable mouse support
 vim.opt.mouse = ""
+
+-- Show whitespace characters
+vim.opt.list = true
+vim.opt.listchars = {
+  extends = "…",
+  lead = "·",
+  multispace = "·",
+  nbsp = "␣",
+  tab = "→ ",
+  trail = "·",
+}
